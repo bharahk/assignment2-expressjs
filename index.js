@@ -15,7 +15,7 @@ app.get("/:id", (req, res) => {
 
 // Create a POST api which acccepts a JSON data. Return an array of data.
 app.post("/", (req, res) => {
-    console.log(req.body); // logging request body.
+    console.log("post body =", req.body); // logging request body.
     res.json(postData);
 });
 
